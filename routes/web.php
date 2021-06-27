@@ -12,5 +12,5 @@
 */
 
 
-
 Route::get('/', 'PostController@index');
+
