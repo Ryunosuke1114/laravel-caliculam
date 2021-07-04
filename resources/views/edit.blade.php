@@ -14,7 +14,6 @@
     </head>
     <body>
        <h1>Blog Name</h1>
-       
        <form action="/posts/{{ $post->id }}" method="POST">
            {{ csrf_field() }}
            @method('PUT')
